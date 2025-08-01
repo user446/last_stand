@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbdb4274cf40f134a9b7fcac2979e98a, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Settings.GameSettings
+  EnemySpawnSettings: {fileID: 11400000, guid: 3b61343178b606e42b3f468e08d7675a, type: 2}
+  ArenaSettings: {fileID: 11400000, guid: 25d4484888d53c14bb5db06406bf8ca4, type: 2}

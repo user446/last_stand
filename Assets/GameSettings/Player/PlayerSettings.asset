@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d8f81544e04254c945699f3f4cfeca, type: 3}
+  m_Name: PlayerSettings
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSettings
+  VisualSettings: {fileID: 11400000, guid: fc81e84b9ff083c4ab7e086491f808f3, type: 2}
+  HealthSettings: {fileID: 11400000, guid: e96cf413f2ccaec4c9fa6f48b2cbd774, type: 2}
+  MovementSettings: {fileID: 11400000, guid: 817c28e63bd090c4997109c0cb4e13cf, type: 2}
+  ShootingSettings: {fileID: 11400000, guid: 9c4e234291b570a46b1a388a8d0ac075, type: 2}
+  ProjectileSettings: {fileID: 11400000, guid: c56ace87b15e46e47bce1279db8f6603, type: 2}
+  InputControlSettings: {fileID: 11400000, guid: afb7dc3e8c1fc8440b94989b692a7aef, type: 2}

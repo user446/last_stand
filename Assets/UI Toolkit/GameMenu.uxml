@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; justify-content: space-around; align-content: auto; align-items: center; flex-wrap: nowrap; flex-direction: column;">
+        <ui:Label text="Label" name="PlayerHealthValue" picking-mode="Ignore" style="-unity-text-align: upper-left; white-space: normal; position: relative; top: -190px; left: 15px; right: auto; bottom: auto; width: 500px; text-overflow: ellipsis; color: rgb(255, 255, 255); display: flex; overflow: visible; align-self: flex-start; align-items: auto; align-content: auto; justify-content: flex-start; flex-wrap: nowrap; flex-direction: column-reverse; font-size: 25px;" />
+        <ui:VisualElement style="flex-grow: 1; width: auto; position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; align-items: auto; align-content: auto; align-self: flex-end; justify-content: center;">
+            <ui:GroupBox name="StartGameMenu" enabled="true" style="align-items: center; justify-content: space-around; align-self: center; flex-direction: row; overflow: visible; position: absolute; bottom: auto; right: auto; top: auto; left: auto; -unity-text-align: upper-center; white-space: normal; align-content: auto; height: 100px; width: 200px;">
+                <ui:Button text="Quit" name="QuitButton" />
+                <ui:Button text="Start" name="StartButton" />
+            </ui:GroupBox>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
